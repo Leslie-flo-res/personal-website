@@ -1,66 +1,101 @@
-body{
-    background-color: #d3d3d3;
+ *{margin:0;
+  padding:0;}
+   
+  
+body{ 
+  background-color: #dfa253
 }
 
-.card{
- border:black solid 3px;
- border-radius: 10px;
-  width: 60%;
-  margin:0 auto;
-  min-width: 650px;
-  max-width: 650px;
-  background-image:url("https://cdn.shopify.com/s/files/1/0289/3076/8949/products/mountain-sketch_3_2_300x300.jpg?v=1646352325" );
-  background-size:contain;
-  background-color:#eceaea
+
+header{
+ background-color:#8d4533; 
 }
 
- .container {
-    padding: 9px 26px;
-  }
+h1{
+  font-size:2.2em;
+  color:#170905;;
+}
+ 
+/* nav bar*/
+#site-nav { 
+  list-style:none;
+  display: inline-block;
+}
+#site-nav li {
+  display: inline-block;
+}
+
+#site-nav a{ 
+  text-decoration: none;
+  color:#ffaf97;
+  margin-left:30px;
+  } 
+
+#site-nav li a:hover { 
+  color:#f49537;
+  border-bottom: #743838 2px solid;
+
+}
+#site-nav li a.active { 
+  color:#fbf9f7;
+  border-bottom: #743838 2px solid;
+
+}
+
 
 
 img{
-border: 2px solid black;
-border-radius:100% ;
-width: 20%;
-max-width:200px;
-min-width: 100px;
-margin: 20px 0px 20px 271px;
-
-
+  border: 2px solid #666467;
+  border-radius:20px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 100px;
+  margin:14px auto;
+  margin-left:5px;
 }
-h1{
-   float:left;
-   margin-top:190px;
-   margin-left:30px
-   
-   
-   
- }   
+  
+/*content*/
+
+
+.container{
+
+ max-width: 550px;
+  min-width: 100px;
+  float:right;
+  margin-top:140px;
+  margin-right:175px ;
+
+  
+ 
+}
+
     
 
 
 p{
-    color: blue;
+color:#000000;
 font-style: italic;
 font-family: arial;
 font-weight: bold;
-border-style: solid;
-background-color:#d3d3d3;
-background-opacity: ;
+border:solid black 2px;
+background-color:#e99a82;
 padding:0 20px;
+margin:0 98px;
+
+
 }
 .info{
     margin:5px 30px;
 }
 
 #self-p{
-color: #26e639;
-font-weight:bold;
-font-family:san serif;
-font-style:italic;
-border-style:dashed;
+color: #080908;
+font-weight: bold;
+font-family: san serif;
+font-style: italic;
+border-style: dashed;
 margin:15px 30px;
+padding:13px 10px;
 }
 
     
